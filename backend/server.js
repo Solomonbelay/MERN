@@ -7,7 +7,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 
 // Replace with your actual password
 const password = encodeURIComponent(process.env.MONGO_PASSWORD);
-const uri = `mongodb+srv://solomonbelay1000:${password}@cluster1.owx5v.mongodb.net/mydb?retryWrites=true&w=majority&appName=Cluster1`;
+const uri = `mongodb+srv://makeyourreallink:${password}@cluster1.owx5v.mongodb.net/mydb?retryWrites=true&w=majority&appName=Cluster1`;  //please change this code to your real mongodb link
 
 const express = require('express');
 const mongoose = require('mongoose');
